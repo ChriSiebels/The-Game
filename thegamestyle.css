@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+body {
+    background-color: #E8E5E1;
+}
+h1 {
+    font-family: "Josefin Sans";
+    font-weight: 900;
+    color: grey;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.empezar {
+    background-color: #FA745E;
+    margin: 2px;
+    font-family: "Josefin Sans";
+    border-width: 3px;
+    color: #454545;
+    font-weight: 700;
+    
+
+}
+
+.nexturn {
+    background-color: #D6CDC1;
+    margin: 1px;
+    font-family: "Josefin Sans";
+    border-width: 2px;
+    color: #454545;
+}
+
+.superior {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mazo {
+    display: flex;
+}
+
+.casa-descendente {
+    display: flex;
+}
+
+.casa-ascendente {
+    display: flex;
+}
+
+.mano {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.casa-asdes {
+    border: 3px solid black;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+}
+.casa, .espacio-carta, .espacio-mazo {
+    border: 2px solid black;
+    width: 170px;
+    height: 220px;
+    margin: 10px;
+    position: relative;
+}
+
+.carta {
+    position: relative;
+    border: 1px;
+    height: 153px;
+}
+
+.carta-mazo {
+    position: relative;
+    height: 100px;
+    z-index: 1;
+}
+.mano-inicial {
+    position: absolute;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game</title>
+    <link rel="stylesheet" href="thegamestyle.css">
+</head>
+
+<body>
+    <h1>The Game</h1>
+    <div class="Tablero">
+        <button class="empezar">Restart</button>
+        <button class="nexturn">Next turn</button>
+        <div class="superior">
+            <div class="mazo">
+            <div class="espacio-mazo">
+                <div id="mazo-inicial"></div>
+                <div class="carta-mazo">
+                    <img src="img/thegame.png">
+                </div>
+            </div>
+        </div>
+        <div id="casas">
+            <div class="casa-descendente">
+                <div class="casa-asdes" id="casa-0"></div>
+                <div class="casa-asdes" id="casa-1"></div>
+            </div>
+            <div class="casa-ascendente">
+                <div class="casa-asdes" id="casa-2"></div>
+                <div class="casa-asdes" id="casa-3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="mano" id="mano">
+        <div class="espacio-carta" id="mano-0"></div>
+        <div class="espacio-carta" id="mano-1"></div>
+        <div class="espacio-carta" id="mano-2"></div>
+        <div class="espacio-carta" id="mano-3"></div>
+        <div class="espacio-carta" id="mano-4"></div>
+        <div class="espacio-carta" id="mano-5"></div>
+        <div class="espacio-carta" id="mano-6"></div>
+    </div>
+
+    <script src="thegame.js"></script>
+
+</body>
+</html>
